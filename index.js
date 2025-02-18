@@ -7,6 +7,7 @@ const cloudinary = require("cloudinary").v2;
 const cloudinaryConfig = require("./cloudinaryConfig");
 const userRoute = require("./routes/userRoute");
 const entryRoute = require("./routes/entryRoute");
+const cors = require("cors");
 
 const app = express();
 dotenv.config();
